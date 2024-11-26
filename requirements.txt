@@ -1,0 +1,7 @@
+Django>=4.0,<5.0
+python-dotenv>=0.19.2
+psycopg2-binary  # Add this if you're using PostgreSQL
+gunicorn  # For production deployment
+djangorestframework  # For Django Rest Framework
+celery  # If using Celery for task queues
+redis  # If using Redis as a cache or Celery broker
